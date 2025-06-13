@@ -5,7 +5,7 @@
 This plugin adds stacked offsets to selected datasets. The offset increases for each dataset in the list (e.g., offset, 2×offset, 3×offset, ...).
 
 # How to install
-1. Download [the plugin file](https://github.com/korintje/StackedOffsetPlugin/archive/refs/tags/v1.0.zip)
+1. Download [the plugin file](https://github.com/korintje/StackedOffsetPlugin/archive/refs/tags/v1.1.zip)
 2. Extract the compressed folder
 3. Move the `stacked_offset.py` in the unzipped folder to somewhere preferable (e.g. C:\Program Files (x86)\Veusz\plugins)
 4. Start Veusz
