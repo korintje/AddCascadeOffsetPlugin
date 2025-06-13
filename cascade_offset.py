@@ -3,15 +3,15 @@
 import veusz.plugins as plugins
 import numpy as np
 
-class AddCascadingOffsetPlugin(plugins.DatasetPlugin):
+class StackedOffsetPlugin(plugins.DatasetPlugin):
     """
-    Veusz DataSetPlugin to add a cascading offset to multiple datasets.
+    Veusz DataSetPlugin to add stacked offsets to multiple datasets.
     """
 
-    menu = ('Add', 'Cascading Offset')
-    name = 'CascadingOffset'
+    menu = ('Add', 'Stacked Offsets')
+    name = 'StackedOffset'
     description_short = 'Add an increasing offset to selected datasets'
-    description_full = 'This plugin adds a cascading offset to a list of selected datasets. The offset increases for each dataset in the list (e.g., offset, 2*offset, 3*offset, ...).'
+    description_full = 'This plugin adds stacked offsets to selected datasets. The offset increases for each dataset in the list (e.g., offset, 2*offset, 3*offset, ...).'
 
     def __init__(self):
         """
@@ -60,4 +60,4 @@ class AddCascadingOffsetPlugin(plugins.DatasetPlugin):
             ds_out.update(data=new_data,
                           serr=ds_in.serr, perr=ds_in.perr, nerr=ds_in.nerr)
 
-plugins.datasetpluginregistry.append(AddCascadingOffsetPlugin)
+plugins.datasetpluginregistry.append(StackedOffsetPlugin)
