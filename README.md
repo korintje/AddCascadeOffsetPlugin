@@ -5,7 +5,7 @@
 This plugin adds a cascading offset to a list of selected datasets. The offset increases for each dataset in the list (e.g., offset, 2*offset, 3*offset, ...).
 
 # How to install
-1. Download [the plugin file](https://github.com/korintje/AddCascadeOffsetPlugin/releases/tag/v1.0)
+1. Download [the plugin file](https://github.com/korintje/AddCascadeOffsetPlugin/archive/refs/tags/v1.0.zip)
 2. Extract the compressed folder
 3. Move the `cascade_offset.py` to anywhere (e.g. C:\Program Files (x86)\Veusz\plugins)
 4. Start Veusz
