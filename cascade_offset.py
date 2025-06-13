@@ -8,7 +8,7 @@ class AddCascadingOffsetPlugin(plugins.DatasetPlugin):
     Veusz DataSetPlugin to add a cascading offset to multiple datasets.
     """
 
-    menu = ('Add', 'Add Cascading Offset')
+    menu = ('Add', 'Cascading Offset')
     name = 'CascadingOffset'
     description_short = 'Add an increasing offset to selected datasets'
     description_full = 'This plugin adds a cascading offset to a list of selected datasets. The offset increases for each dataset in the list (e.g., offset, 2*offset, 3*offset, ...).'
