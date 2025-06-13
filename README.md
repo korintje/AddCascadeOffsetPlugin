@@ -2,7 +2,7 @@
 [Veusz](https://veusz.github.io/) plugin to add an increasing offset to selected datasets
 
 # How it works
-This plugin adds a cascading offset to a list of selected datasets. The offset increases for each dataset in the list (e.g., offset, 2*offset, 3*offset, ...).
+This plugin adds a cascading offset to a list of selected datasets. The offset increases for each dataset in the list (e.g., offset, 2×offset, 3×offset, ...).
 
 # How to install
 1. Download [the plugin file](https://github.com/korintje/AddCascadeOffsetPlugin/archive/refs/tags/v1.0.zip)
